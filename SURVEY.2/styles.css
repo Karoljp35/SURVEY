@@ -1,15 +1,15 @@
-styles.css
+/* styles.css */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f9;
-    margin: 0;
-    padding-top: 10%;
-    padding-right: 30px;
-    padding-left: 30px;
-    text-align: center;
-  
-  
-  }
+   font-family: 'Arial', sans-serif;
+   background-color: #f4f4f9;
+   margin: 0;
+   padding-top: 60px;
+   border-radius: 10px ;
+   -webkit-border-radius: 10px ;
+   -moz-border-radius: 10px ;
+   -ms-border-radius: 10px ;
+   -o-border-radius: 10px ;
+}
   
   #form-container {
     text-align: center;
@@ -22,24 +22,37 @@ body {
   }
   
   h1#title {
-    color: #333;
-    margin-bottom: 30px;
+   color: #333;
+   margin-top: 5px;
+   text-align: center;
+   background-color: whitesmoke;
+   border-radius: 10px;
   }
-  
-  p#description {
-    margin-bottom: 30px;
-    color: #666;
-  }
+   p#description { 
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+   text-align: center;
+   }
+
   
   #survey-form {
-    text-align: left;
-  }
+    text-align: center;
+    margin-top: 10px;
+    border: 3px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
   
   label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
     color: #333;
+    
   }
   
   input[type="text"],
@@ -47,12 +60,14 @@ body {
   input[type="number"],
   select,
   textarea {
-    width: 100%;
+    width: 45%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-sizing: border-box;
+    box-sizing:  border-box;
+    
+    
   }
   
   input[type="text"]:focus,
@@ -84,7 +99,7 @@ body {
     display: block;
     width: 100%;
     padding: 15px;
-    background-color: #007bff;
+    background-color: #539ff0;
     border: none;
     border-radius: 5px;
     color: #ffffff;
